@@ -1,0 +1,210 @@
+body {
+  margin-top: 50px;
+  font-size: 16px;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Arial';
+}
+
+p {
+  font-family: sans-serif;
+}
+
+footer {
+  font-size: 30px;
+  padding: 5px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+
+/*index page*/
+
+#header {
+  margin-bottom: 30px;
+}
+
+#header a {
+  color: #333;
+}
+
+#header li a {
+  color: #777;
+}
+
+#header a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+#header h1 {
+  font-size: 60px;
+}
+
+#header .current a {
+  color: #333;
+}
+
+.grid-container {
+  margin: auto;
+  grid-gap: 10px;
+  column-count: 1;
+}
+
+#projects .grid-item {
+  margin-bottom: 10px;
+}
+
+
+
+
+/*about page*/
+#about img {
+  width: auto;
+}
+
+#about h1, h4 {
+  font-weight: bold;
+}
+
+#about h1 {
+  padding: 20px;
+}
+
+#about h4 {
+  padding-top: 20px;
+}
+
+#about p {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+/*contact page*/
+#contact h1 {
+  font-weight: bold;
+  margin: 30px;
+}
+
+#contact .form-group {
+  width: 100%;
+  max-width: 530px;
+  padding: 15px;
+  margin: auto;
+}
+
+#contact .form-label {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+#contact .form-label #inputMessage {
+  height: 200px;
+}
+
+#contact button {
+  float: right;
+  border-radius: 0;
+}
+
+#contact input {
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 0;
+}
+
+
+/*indiv project pages*/
+#showcase h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#showcase h4 {
+  font-weight: normal;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#showcase p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#showcase img {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/*kip image grid*/
+#showcase .mood-grid img {
+  margin: 3px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+/*media resizing*/
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .grid-container {
+    column-count: 1;
+    margin: 0 10% 20px 10%;
+  }
+  #about img {
+    max-width: 500px;
+    margin: auto;
+  }
+  #about .content {
+    max-width: 500px;
+    margin: auto;
+  }
+  #contact img {
+    max-width: 500px;
+    margin: auto;
+  }
+  #showcase .main-img {
+    max-width: 500px;
+    margin: auto;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .grid-container {
+    column-count: 2;
+    max-width: 730px;
+    margin: auto;
+  }
+  #showcase .page-margin {
+    max-width: 730px;
+    margin: auto;
+  }
+  #showcase img {
+    width: 730px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .grid-container {
+    column-count: 3;
+    max-width: 900px;
+    margin: auto;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
