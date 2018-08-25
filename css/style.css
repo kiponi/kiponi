@@ -208,11 +208,10 @@ footer {
     margin-bottom: 10px;
     margin-top: 10px;
   }
-  #showcase iframe {
+  #showcase .videoWrapper iframe {
     width: 730px;
-    height: 548px;
+    height: 100%;
     margin: auto;
-    margin-bottom: 10px;
     margin-top: 10px;
   }
 }
