@@ -20,7 +20,11 @@ footer {
 }
 
 footer a {
-  color: inherit;
+  color: #333;
+}
+
+footer a:hover {
+  color: #333;
 }
 
 
