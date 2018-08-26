@@ -19,6 +19,10 @@ footer {
   margin-bottom: 60px;
 }
 
+footer a {
+  color: inherit;
+}
+
 
 /*index page*/
 
