@@ -141,10 +141,36 @@ footer {
 
 /*kip image grid*/
 #showcase .mood-grid img {
-  margin: 3px;
+  margin-bottom: 1px;
+  margin-top: 1px;
   object-fit: cover;
 }
+#showcase .mood-grid {
+  margin: inherit;
+}
+#showcase .col-sm-4 {
+  padding: 2.5px;
+}
 
+#showcase .img-half-height {
+  width: 100%;
+  padding-top: 40%;
+  padding-bottom: 40%;
+  overflow: hidden;
+  position: relative;
+}
+#showcase .img-half-height img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  top: -100%;
+  right: -100%;
+  left: -100%;
+  bottom: -100%;
+}
+
+/*embedded video formatting*/
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%;
